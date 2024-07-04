@@ -3,4 +3,7 @@ Here are a list of tasks I want to do, that I haven't yet:
 2. Figure how to de-scale stock prices, esp important for multiple ticker's worth of data
     a) this entails a TON of scaling and de-scaling work, which must be built into the functions
     b) yea nah this is just REALLY fkn complex, jesus
-3. 
+
+3. this ones a complete conspiracy theory:
+    a) stddev is a good gauge of IV of PAST DATA, but where's the future data then?
+    b) black scholes model, very exciting shit, i think ill be able to play with that now
