@@ -1,0 +1,6 @@
+Here are a list of tasks I want to do, that I haven't yet:
+1. Figure normal disto with the 'future future' predictor
+2. Figure how to de-scale stock prices, esp important for multiple ticker's worth of data
+    a) this entails a TON of scaling and de-scaling work, which must be built into the functions
+    b) yea nah this is just REALLY fkn complex, jesus
+3. 
