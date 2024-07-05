@@ -1,9 +1,11 @@
 Here are a list of tasks I want to do, that I haven't yet:
 1. Figure normal disto with the 'future future' predictor
-2. Figure how to de-scale stock prices, esp important for multiple ticker's worth of data
+2. configure UserInput_Two to be able to test against actual stock data, because right 
+now it is literally predicting 'future future' prices
+3. Figure how to de-scale stock prices, esp important for multiple ticker's worth of data
     a) this entails a TON of scaling and de-scaling work, which must be built into the functions
     b) yea nah this is just REALLY fkn complex, jesus
-
-3. this ones a complete conspiracy theory:
+4. this ones a complete conspiracy theory:
     a) stddev is a good gauge of IV of PAST DATA, but where's the future data then?
     b) black scholes model, very exciting shit, i think ill be able to play with that now
+5. sorting the tons of tickers with fama french factors, i legit have NO IDEA how yet
