@@ -1,5 +1,4 @@
-Here are a list of tasks I want to do, that I haven't yet:
-1. Figure normal disto with the 'future future' predictor
+Here's a list of tasks I want to do, that I haven't yet:
 2. configure UserInput_Two to be able to test against actual stock data, because right 
 now it is literally predicting 'future future' prices
 3. Figure how to de-scale stock prices, esp important for multiple ticker's worth of data
@@ -9,3 +8,6 @@ now it is literally predicting 'future future' prices
     a) stddev is a good gauge of IV of PAST DATA, but where's the future data then?
     b) black scholes model, very exciting shit, i think ill be able to play with that now
 5. sorting the tons of tickers with fama french factors, i legit have NO IDEA how yet
+
+Here's a list of task I completed:
+1. Figure normal disto with the 'future future' predictor
