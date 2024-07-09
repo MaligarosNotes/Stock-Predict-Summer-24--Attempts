@@ -33,9 +33,7 @@ def addStdDev(df,IV=1,daysago=100):
 def TickerIntoTensor(ticker='aapl',daysago=100,daysforward=1,split_percentage=0.9,IV=1):
     df = yf.Ticker(ticker.upper())
     df = df.history(period='max')
-    if df.shape[1] == 7:
-        df = df.drop(columns=['Dividends','Stock Splits'])
-    df = df.drop(columns=['Open','High','Low','Volume'])
+    df = df[['Close']]
     for i in range(daysago,-daysforward-1,-1):
         df['{}daysago'.format(i)] = df['Close'].shift(i)
         df = df.copy()
