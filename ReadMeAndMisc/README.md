@@ -4,7 +4,7 @@ past attempts is a folder that has smaller attempts, whereas dedicated folders f
 
 
 do all the download things, like 
-$pip install -r ReadMeAndMisc/requirements.txt 
+$pip install -r ./ReadMeAndMisc/requirements.txt 
 and what not
 
 most of this is a mess, i only started commenting(and schizophrenically at that) in the 6th attempt, so good luck deciphering it
