@@ -4,6 +4,17 @@ past attempts is a folder that has smaller attempts, whereas dedicated folders f
 
 
 do all the download things, like 
+
+
+# install virtual environment
+$ python3 -m venv .venv # for linux
+> py -3 -m venv .venv   # for windows
+
+# make sure you activate virtual environment
+$ source .venv/bin/activate # for linux
+> .venv\Scripts\activate # for windows
+
+# install necessary dependencies 
 $pip install -r ./ReadMeAndMisc/requirements.txt 
 and what not
 
