@@ -8,8 +8,7 @@ Here's a list of tasks I want to do, that I haven't yet:
     a) stddev is a good gauge of IV of PAST DATA, but where's the future data then?
     b) black scholes model, very exciting shit, i think ill be able to play with that now
 
-5. sorting the tons of tickers with psuedo fama french factors, i legit have NO IDEA how yet
-    a) ok im tryin it with 7th
+
 
 
 
@@ -20,3 +19,6 @@ now it is literally predicting 'future future' prices
 
 6. 5th stock will be factoring in stddev as a %probability
     a) yea nah 5th is just an attempt at making %change learnable thru ml, didnt work too
+
+5. sorting the tons of tickers with psuedo fama french factors, i legit have NO IDEA how yet
+    a) ok im tryin it with 7th
